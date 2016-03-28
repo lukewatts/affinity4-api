@@ -31,7 +31,7 @@ class Asset
         }
 
         if (array_keys($this->js)) {
-            add_action('wp_enqueue_scritps', [$this, 'js']);
+            add_action('wp_enqueue_scripts', [$this, 'js']);
         }
 
     }
